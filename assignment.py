@@ -97,7 +97,7 @@ def costFinder(country,units,hrs):
     # appending attributes to the dictionary
     result["output"].append({
         "region" : country["name"],
-        "totalCost" : totalCost,
+        "totalCost" : "$"+str(totalCost),
         "machines" : machine
        })
 
